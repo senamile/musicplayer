@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Permanent+Marker&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <title>Music-Player</title>
+    <script
+      src="https://kit.fontawesome.com/cb33723844.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div class="container">
+      <nav>
+
+        <ul class="sidebar"> 
+            <li onclick= closeSidebar(event) ><a href=""><svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 -960 960 960" width="24"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg></a></li>
+          <li>
+            <a href="#homepage">Home</a>
+          </li>
+          <li>
+            <a href="#page1">About</a>
+          </li>
+          <li>
+            <a href="#page2">Albums</a>
+          </li>
+          <li>
+            <a href="#page4">Favourite</a>
+          </li>
+          <li>
+            <a href="#page3">Stream Now</a>
+          </li>
+        </ul>
+       
+
+        <ul> 
+            <li><a href="" class="log">Maverick <span>City</span> Music</a></li>
+          <li class="hideonMobile">
+            <a href="#homepage">Home</a>
+          </li>
+          <li class="hideonMobile">
+            <a href="#page1">About</a>
+          </li>
+          <li class="hideonMobile">
+            <a href="#page2">Albums</a>
+          </li>
+          <li class="hideonMobile">
+            <a href="#page4">Favourite</a>
+          </li>
+          <li class="hideonMobile">
+            <a href="#page3">Stream Now</a>
+          </li>
+          <li class="menu-btn" onclick= showSidebar()>
+            <a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 -960 960 960" width="24"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z" fill ="white"/></svg></a>
+          </li>
+        </ul>
+      </nav>
+      <section id="homepage">
+        <div class="content">
+          <h1>
+            Don't
+            <br />
+            Give Up on ME YET.
+          </h1>
+          <p>
+            Do you not know that in a race all the runners run, but only one
+            gets the prize? Run in such a way as to get the prize.
+            <br />
+            -1 Corinthians 9:24
+          </p>
+        </div>
+      </section>
+
+      <section id="page1">
+    <div class="container1">
+        <h2>ABOUT Maverick City Music</h2>
+    <div class="music1">     
+          <img src="images.jpeg" alt="" />
+    </div>
+        <div class="music">
+          <h2>Music</h2>
+          <p>
+            Maverick City started with a dream to make space for folk that would
+            otherwise live in their own separate worlds. To break the unspoken
+            rules that exist in the CCM and Gospel World! But I think more
+            importantly to be a megaphone for a community of creatives that have
+            been pushed to the margins of the industry of Church Music. What
+            brings us together, and that sound that is vivaciously smacking you
+            in the face the first time you hit play on a Maverick track. Isn’t
+            the sound of a community that centered around their deprivation,
+            it’s the audacious sound of true belonging: The beautiful harmony of
+            a long-lost family.
+          </p>
+          <h2>Family</h2>
+          <p>
+            Maybe now more than ever not just the Church but the world needs a
+            plurality of strong diverse voices carrying messages that can help
+            reshape the world. However, we didn’t start out to be a diverse
+            community for the sake of diversity. We simply became aware of our
+            deep need for people that were so absent from our lives that their
+            silence was deafening. Our response was to create space for that
+            which we had so profoundly become aware of. Our need for each other.
+          </p>
+        </div>
+    </div>
+      </section>
+
+      <section id="page2">
+        <h2>Albums</h2>
+       <div class="AlbumP">
+        <div class="column">
+          <h5>Volume 1</h5>
+            <img src="ALBUM/Vol1.jpg"/>
+            
+                   <div class="btn1">
+                    <a href="https://www.youtube.com/watch?v=fxit90ZoSso" class="btn">albums</a>
+                </div>
+        </div>
+        <div class="column">
+          <h5>Old Church Basements</h5>
+            <img src="ALBUM/OldCB.jpg"/>
+                   <div class="btn1">
+                    <a href="https://www.youtube.com/watch?v=4FB3S6Htjek&list=PLGvkktFFaDOM2HDIKgqZwFQ-7uJ5BVjRW" class="btn">albums</a>
+                </div>
+        </div>
+        <div class="column">
+          <h5>Jubilee: Juneteenth</h5>
+            <img src="ALBUM/Jubille.jpg"/>
+           
+                    <div class="btn1">
+                    <a href="https://www.youtube.com/watch?v=MGlOmcZWJos&list=PLexGnU62Zc5N-LQqFpES8jx-xSlh03cGT" class="btn">albums</a>
+                </div>
+        </div>
+       </div>
+    
+      </section>
+
+
+      <section id="page4">
+        <h2>
+          THESE ARE MY TOP 5 FAVOURITES
+        </h2>
+        <div class="cont">
+          <div class="firstColumn">
+            <h4>5</h4>
+            <p>
+               This song is one of my favourite, just 4 days before Chandler Moore(one of the member) helped record the song after his apartment caught fire. 
+              He lost…everything. Yet, the hand of God was on his life and he wasn’t home when the fire took place.  
+              Just four days later, he walked in to record Jireh with literally the clothes on his back. In doing so, the song took on a whole new meaning.  
+              With lyrics like, “Jireh you are enough” and “I will be content in every circumstance”, the song quickly became his testimony.  
+            </p>
+          </div>
+          <div class="secondColumn">
+            <div class="music-palyer">
+              <div class="navi">
+                <div class="circle">
+                  <i class="fa-solid fa-angle-left"></i>
+                </div>
+                <div class="circle">
+                  <i class="fa-solid fa-bars"></i>
+                </div>
+              </div>
+              <img src="Songs/jireh.jpg" class="song1" />
+              <h3>JIREH</h3>
+              <p>Maverick City Music, Chandler Moore & Naomi Raine</p>
+
+              <audio controls>
+                <source
+                  src="Music/jireh_elevation_worship_maverick_city_mp3_52007.mp3"
+                  type="audio/mpeg"
+                />
+              </audio>
+            </div>
+          </div>
+        </div>
+        <br />
+
+        <div class="cont">
+          <div class="firstColumn">
+            <h4>4</h4>
+            <p>
+              The bridge of “In the Room” describes the kind of desperation people often have to experience God's presence and God's power. Specifically, 
+              the song mentions two moments when people had a “whatever it takes” attitude about getting into God's presence.
+            </p>
+          </div>
+          <div class="secondColumn">
+            <div class="music-palyer">
+              <div class="navi">
+                <div class="circle">
+                  <i class="fa-solid fa-angle-left"></i>
+                </div>
+                <div class="circle">
+                  <i class="fa-solid fa-bars"></i>
+                </div>
+              </div>
+              <img src="Songs/InTheRoom.jpg" class="song1" />
+              <h3>In The Room</h3>
+              <p>Maverick City Music, Chandler Moore & Naomi Raine</p>
+
+              <audio controls>
+                <source
+                  src="Music/in_the_room_maverick_city_music_naomi_raine_tasha_cobbs_leonard_official_music_video_mp3_53276.mp3"
+                  type="audio/mpeg"
+                />
+              </audio>
+            </div>
+          </div>
+        </div>
+
+        <br>
+
+        <div class="cont">
+          <div class="firstColumn">
+            <h4>3</h4>
+            <p>
+              This qoute is from Chandler Moore who is one of the memmber of the choir
+               “We wrote “Promises” when we were just starting out. At the time, I was
+                living in a two-bedroom and one-bathroom trailer with no money. I was 
+                leading worship at church, hoping to survive another day. 
+               My brother—and band member—Joe-L. Barnes, who sings this song with Naomi, 
+               came up to me with this song idea roughly two years ago. We started on the 
+               verses and pre-chorus together but didn’t end up finishing it—until right before the COVID-19 pandemic. 
+            </p>
+          </div>
+          <div class="secondColumn">
+            <div class="music-palyer">
+              <div class="navi">
+                <div class="circle">
+                  <i class="fa-solid fa-angle-left"></i>
+                </div>
+                <div class="circle">
+                  <i class="fa-solid fa-bars"></i>
+                </div>
+              </div>
+              <img src="Songs/Promises.jpg" class="song1" />
+              <h3>Promises</h3>
+              <p>Maverick City Music, Chandler Moore & Naomi Raine</p>
+
+              <audio controls>
+                <source
+                  src="Music/promises_maverick_city_with_naomi_raine_official_music_video_mp3_53528.mp3"
+                  type="audio/mpeg"
+                />
+              </audio>
+            </div>
+          </div>
+        </div>
+        <br />
+
+        <div class="cont">
+          <div class="firstColumn">
+            <h4>2</h4>
+            <p>
+              The lyrics express a journey of rediscovering faith, 
+              acknowledging God's ability to perform miracles, and 
+              the singer's realization that God is not done with them yet.
+            </p>
+          </div>
+          <div class="secondColumn">
+            <div class="music-palyer">
+              <div class="navi">
+                <div class="circle">
+                  <i class="fa-solid fa-angle-left"></i>
+                </div>
+                <div class="circle">
+                  <i class="fa-solid fa-bars"></i>
+                </div>
+              </div>
+              <img src="Songs/MoreThanAble.jpg" class="song1" />
+              <h3>More Than Able</h3>
+              <p>Maverick City Music, Chandler Moore & Naomi Raine</p>
+
+              <audio controls>
+                <source
+                  src="Music/more_than_able_maverick_city_music_chandler_moore_tasha_cobbs_leonard_mp3_53110.mp3"
+                  type="audio/mpeg"
+                />
+              </audio>
+            </div>
+          </div>
+        </div>
+        <br />
+
+        <div class="cont">
+          <div class="firstColumn">
+            <h4>1</h4>
+            <p>
+              This is one of my favourite song, it motivates me to work hard
+              towards my goals and never give up in life no matter what happens.
+              It basically tells you that, God is watching and you may not get
+              everything you want now but in the end it will be worthy the
+              wait.
+            </p>
+          </div>
+          <div class="secondColumn">
+            <div class="music-palyer">
+              <div class="navi">
+                <div class="circle">
+                  <i class="fa-solid fa-angle-left"></i>
+                </div>
+                <div class="circle">
+                  <i class="fa-solid fa-bars"></i>
+                </div>
+              </div>
+              <img src="Songs/Yet.jpg" class="song1" />
+              <h3>Yet</h3>
+              <p>Maverick City Music, Chandler Moore & Naomi Raine</p>
+
+              <audio controls>
+                <source
+                  src="Music/yet_maverick_city_music_chandler_moore_ashley_hess_the_king_will_come_official_music_video_mp3_64482.mp3"
+                  type="audio/mpeg"
+                />
+              </audio>
+            </div>
+          </div>
+        </div>
+
+       
+      </section>
+
+      <section id="page3">
+        <h2>Stream Now</h2>
+        <p></p>
+        <div class="image">
+            <img src="stream now.jpg" alt="">
+        </div>
+        <div class="socialIcons">
+          <a href="https://music.apple.com/us/artist/maverick-city-music/1474458790">
+            <i class="fa-brands fa-itunes" style="color: rgb(230, 60, 60);"></i>
+          </a>
+          <a href="https://open.spotify.com/artist/58r1rB5t3VF5X6yXGPequV">
+            <i class="fa-brands fa-spotify" style="color: green;"></i>
+          </a>
+          <a href="https://www.youtube.com/channel/UCcQaSpIMPptu9RLgqIbviqw">
+            <i class="fa-brands fa-youtube" style="color:red;"></i>
+          </a>
+          <a href="https://www.deezer.com/en/artist/70542502">
+            <i class="fa-brands fa-deezer" style="color:blue;"></i>
+          </a>
+        </div>
+      <div class="AboutME">
+        <p>Created by <span>Senamile Mthethwa</span> 2024</p>
+      </div>
+      </section>
+
+      
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
